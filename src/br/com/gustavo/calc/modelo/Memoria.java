@@ -110,6 +110,7 @@ public class Memoria {
 
         try{
             Integer.parseInt(texto);
+            return TipoComando.NUMERO;
         }catch(NumberFormatException e) {
             //Aqui não é número
 

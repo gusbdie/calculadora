@@ -31,10 +31,10 @@ public class Teclado extends JPanel implements ActionListener{
         //isso faz os quadrados da grade ficarem grudados
 
         //LINHA 1
-        c.gridwidth = 3;
+        c.gridwidth = 2;
         adicionarBotao("AC", COR_CINZA_ESCURO, c, 0, 0);
         c.gridwidth = 1;
-
+        adicionarBotao("+-", COR_CINZA_CLARO, c, 2, 0);
         adicionarBotao("/", COR_LARANJA, c, 3, 0);
 
         //LINHA 2
